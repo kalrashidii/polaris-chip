@@ -18,10 +18,10 @@ export class PolarisChip extends LitElement {
       .link:focus,
       .link:hover,
       :host([active]) .link {
-        background-color: #444;
-        border: 2px solid #444;
+        background-color: #e4e5e7;
+        border: 2px solid #e4e5e7;
         border-radius: 2px;
-        color: #444;
+        color: #005fa9;
         cursor: pointer;
         text-decoration: underline;
 
@@ -41,7 +41,7 @@ export class PolarisChip extends LitElement {
 
   constructor() {
     super();
-    this.name = '';
+    this.name = 'Football';
     this.link = "https://www.psu.edu/news/research/";
     this.active = false;
   }
